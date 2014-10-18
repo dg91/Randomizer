@@ -1,0 +1,14 @@
+ 1. [DONE] Close application.
+ 2. Send random text message to contacts.
+ 3. Call nearby random person.
+ 4. Post to Facebook.
+ 5. Wikipedia Random Search.
+ 6. Random google search.
+ 7. IMDB top 250.
+ 8. Pong. ##################################################################
+ 9. Snake. #################################################################
+ 9. Calculator.
+10. Wrongulator.
+11. Take picture with frontal camera and post it to Facebook. ##############
+12. Take picture with main camera and post it to Facebook. #################
+13. Watch random video on YouTube.
