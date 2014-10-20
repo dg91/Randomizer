@@ -18,16 +18,16 @@ public class CloseApp {
 
     public CloseApp(Context context) {
 
-        //Create dialog content
+        // Create dialog content
         Dialog dialog = new Dialog(context);
-        dialog.setContentView(R.layout.popup);
+        dialog.setContentView(R.layout.popup_onebutton);
         dialog.setTitle("Application will close!");
         dialog.show();
 
-        //Create text to the PopUp Window content
+        // Create text to the PopUp Window content
         popUpText = (TextView) dialog.findViewById(R.id.popUpText);
 
-        //Crate Count Down Timer and set PopUp Window text accordingly.
+        // Crate Count Down Timer and set PopUp Window text accordingly.
         new CountDownTimer(4000, 1000) {
             @Override
             public void onTick(long remainingSeconds) {
@@ -45,7 +45,7 @@ public class CloseApp {
             }
         }.start();
 
-        //Create button content
+        // Create button content
         Button okButton = (Button) dialog.findViewById(R.id.popUpOK);
         okButton.setOnClickListener(new View.OnClickListener() {
             @Override

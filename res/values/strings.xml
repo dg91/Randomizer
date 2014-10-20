@@ -2,6 +2,9 @@
 <resources>
     <string name="app_name">Randomizer</string>
     <string name="randomButton">Randomize your life!</string>
-    <string name="popUpText">Application will close in </string>
     <string name="popUpOK">OK</string>
+    <string name="stop">Stop</string>
+    <string name="pause">Pause</string>
+    <string name="close">Close</string>
+
 </resources>

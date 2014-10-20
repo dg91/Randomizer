@@ -5,6 +5,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import com.cookie.Randomizer.MusicPlayer.MusicPlayerPopUp;
 
 public class MainActivity extends Activity {
 
@@ -19,7 +20,8 @@ public class MainActivity extends Activity {
         randomButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                new CloseApp(context);
+                //new CloseApp(context);
+                new MusicPlayerPopUp(context);
             }
         });
     }
